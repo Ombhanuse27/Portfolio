@@ -12,18 +12,20 @@ const AboutDetails = () => {
           }
         >
           <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
-            Architect of Enchantment
+            Full-Stack Sorcerer
           </h2>
           <p className="font-light  text-xs sm:text-sm md:text-base   ">
-            My journey in web development is powered by an array of mystical
-            tools and languages, with JavaScript casting the core of my
-            enchantments. I wield frameworks like React.js and Next.js with
-            precision, crafting seamless portals (websites) that connect realms
-            (users) across the digital universe. The ancient arts of the
-            Jamstack empower me to create fast, secure, and dynamic experiences,
-            while my design skills ensure every creation is not only functional
-            but visually captivating. Join me as I continue to explore new
-            spells and technologies to shape the future of the web.
+            I am a full-stack web and app developer, skilled in crafting
+            everything from dynamic front-end interfaces to robust back-end
+            systems. My toolkit includes modern frameworks, powerful libraries,
+            and a deep understanding of the web’s ever-changing nature. Whether
+            building immersive websites or scalable mobile apps, I focus on
+            creating seamless, high-performance experiences. Recently, I’ve
+            expanded my journey into the world of DevOps—automating development
+            lifecycles, optimizing deployments, and ensuring stability across
+            all environments. This new path empowers me to bridge the gap
+            between development and operations, bringing more efficiency and
+            reliability to every project.
           </p>
         </ItemLayout>
 
@@ -49,7 +51,7 @@ const AboutDetails = () => {
         >
           <img
             className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/top-langs?username=codebucks27&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
+            src="https://github-readme-stats.vercel.app/api/top-langs?username=Ombhanuse27&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false"
             alt="CodeBucks"
             loading="lazy"
           />
@@ -58,7 +60,7 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
           <img
             className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api?username=codebucks27&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
+            src="https://github-readme-stats.vercel.app/api?username=Ombhanuse27&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false"
             alt="CodeBucks"
             loading="lazy"
           />
@@ -76,13 +78,13 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
           <img
             className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STREAK_STATS_URL}?user=codebucks27&theme=dark&hide_border=true&type=svg&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B`}
+            src="https://github-readme-streak-stats.herokuapp.com?user=Ombhanuse27&theme=dark&hide_border=true&type=svg&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B"
             alt="CodeBucks"
             loading="lazy"
-          />
+          /> 
         </ItemLayout>
 
-        <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
+        {/* <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
           <Link
             href="https://github.com/codebucks27/Nextjs-contentlayer-blog"
             target="_blank"
@@ -95,7 +97,7 @@ const AboutDetails = () => {
               loading="lazy"
             />
           </Link>
-        </ItemLayout>
+        </ItemLayout> */}
       </div>
     </section>
   );
