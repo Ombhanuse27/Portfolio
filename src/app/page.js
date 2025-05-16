@@ -13,7 +13,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between relative">
       <Image
         priority
-        sizes="100vw"
+        sizes="600vw"
         src={bg}
         alt="background-image"
         fill
