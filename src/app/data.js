@@ -19,7 +19,7 @@ Websites:
 export const projectsData = [
   {
     id: 1,
-    name: "HealthSchedule",
+    name: "Health_Scheduling",
     description: "Book and manage health appointments",
     date: "2025-03-29",
     demoLink: "https://github.com/Ombhanuse27/health_scheduling",
@@ -36,7 +36,7 @@ export const projectsData = [
     name: "BlogHub",
     description: "Post,read,share and discover blogs",
     date: "2024-09-10",
-    demoLink: "https://github.com/Ombhanuse27/LetsBlog",
+    demoLink: "https://blog-site-azure-ten.vercel.app/",
   },
   {
     id: 4,
@@ -73,7 +73,7 @@ export const BtnList = [
   },
   {
     label: "Resume",
-    link: "/resume.pdf",
+    link: "/my_resume3.pdf",
     icon: "resume",
     newTab: true,
   },

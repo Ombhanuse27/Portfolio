@@ -11,7 +11,8 @@ export default function Loki(props) {
       {...props}
       dispose={null}
       position={[0, 0, 0]}          // Center at the origin
-      scale={[3.5, 3.5, 3.5]}        // Scale model for size
+      scale={[4.5, 4.5, 4.5]}  // Example: scales the model up by 5x
+       // Scale model for size
       rotation={[0, -Math.PI / 2, 0]}
    // Rotate to face the front (assuming front is along the Z-axis)
     >
