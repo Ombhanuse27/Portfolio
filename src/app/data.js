@@ -22,7 +22,7 @@ export const projectsData = [
     name: "Health_Scheduling",
     description: "Book and manage health appointments",
     date: "2025-03-29",
-    demoLink: "https://github.com/Ombhanuse27/health_scheduling",
+    demoLink: "https://health-scheduling.vercel.app/",
   },
   {
     id: 2,
@@ -40,6 +40,13 @@ export const projectsData = [
   },
   {
     id: 4,
+    name: "DailyBasket",
+    description: "A simple grocery shopping app",
+    date: "2025-06-30",
+    demoLink: "https://github.com/Ombhanuse27/daily_basket",
+  },
+  {
+    id: 5,
     name: "ShowHub",
     description: "Movie Ticket Booking Platform",
     date: "2023-05-30",
